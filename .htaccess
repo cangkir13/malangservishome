@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets)
+RewriteRule ^(.*)$ /blog_smart_home.com/index.php/$1 [L]
